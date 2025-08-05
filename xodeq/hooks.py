@@ -4,6 +4,7 @@ app_publisher = "Aaran Software"
 app_description = "Power Beyond Code – xodeq"
 app_email = "info@aaransoftware.com"
 app_license = "mit"
+app_home = "/app/xodeq"
 
 # Apps
 # ------------------
@@ -11,15 +12,15 @@ app_license = "mit"
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
-# add_to_apps_screen = [
-# 	{
-# 		"name": "xodeq",
-# 		"logo": "/assets/xodeq/logo.png",
-# 		"title": "Xodeq",
-# 		"route": "/xodeq",
-# 		"has_permission": "xodeq.api.permission.has_app_permission"
-# 	}
-# ]
+add_to_apps_screen = [
+	{
+		"name": app_name,
+		"logo": "/assets/xodeq/images/xodeq.png",
+		"title": app_title,
+		"route": app_home,
+		# "has_permission": "xodeq.api.permission.has_app_permission"
+	}
+]
 
 # Includes in <head>
 # ------------------
