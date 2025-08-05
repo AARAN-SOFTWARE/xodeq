@@ -52,7 +52,7 @@ add_to_apps_screen = [
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "xodeq/public/icons.svg"
+app_include_icons = "xodeq/public/images/xodeq.svg"
 
 # Home Pages
 # ----------
